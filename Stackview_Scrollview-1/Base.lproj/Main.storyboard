@@ -44,7 +44,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cxz-X5-5BV" userLabel="Vertical Scroll View">
-                                <rect key="frame" x="0.0" y="40" width="375" height="578"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DXG-eZ-UH9" userLabel="Blue View">
                                         <rect key="frame" x="66" y="20" width="243" height="333.5"/>
@@ -86,6 +86,11 @@
                             <constraint firstAttribute="trailingMargin" secondItem="DXG-eZ-UH9" secondAttribute="trailing" constant="50" id="uSM-06-n2N"/>
                             <constraint firstItem="Cxz-X5-5BV" firstAttribute="top" secondItem="Pko-cY-mMA" secondAttribute="bottom" id="wQa-Sm-awk"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="UV9-kt-4vl"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="topRated" id="9Dz-Am-d09"/>
                 </viewController>
@@ -156,13 +161,13 @@
                                             <constraint firstItem="2YS-Ga-XdI" firstAttribute="centerY" secondItem="zsi-yS-AHb" secondAttribute="centerY" id="Ve1-g9-ehH"/>
                                             <constraint firstItem="6YZ-Be-9e4" firstAttribute="centerY" secondItem="zsi-yS-AHb" secondAttribute="centerY" id="aJE-Pn-h9p"/>
                                             <constraint firstItem="sIY-zq-ZEo" firstAttribute="leading" secondItem="2YS-Ga-XdI" secondAttribute="trailing" constant="16" id="ad8-tR-4ng"/>
-                                            <constraint firstItem="zsi-yS-AHb" firstAttribute="top" secondItem="Q81-xK-hzO" secondAttribute="top" constant="25.5" id="ceu-ya-x8l"/>
+                                            <constraint firstItem="zsi-yS-AHb" firstAttribute="top" secondItem="Q81-xK-hzO" secondAttribute="top" constant="25" id="ceu-ya-x8l"/>
                                             <constraint firstItem="sIY-zq-ZEo" firstAttribute="centerY" secondItem="zsi-yS-AHb" secondAttribute="centerY" id="fgj-PE-LW2"/>
                                             <constraint firstItem="6YZ-Be-9e4" firstAttribute="leading" secondItem="sIY-zq-ZEo" secondAttribute="trailing" constant="16" id="igT-JY-JG7"/>
                                             <constraint firstItem="2YS-Ga-XdI" firstAttribute="leading" secondItem="nzL-jy-ACm" secondAttribute="trailing" constant="16" id="qaW-wF-B3n"/>
                                             <constraint firstAttribute="height" constant="200" id="uik-b7-9gn"/>
                                             <constraint firstAttribute="trailing" secondItem="6YZ-Be-9e4" secondAttribute="trailing" constant="16" id="v5m-B6-HjR"/>
-                                            <constraint firstAttribute="bottom" secondItem="zsi-yS-AHb" secondAttribute="bottom" constant="24.5" id="wcN-lr-3Ib"/>
+                                            <constraint firstAttribute="bottom" secondItem="zsi-yS-AHb" secondAttribute="bottom" constant="25" id="wcN-lr-3Ib"/>
                                         </constraints>
                                     </scrollView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hYU-qt-Abh" userLabel="Red (Y) View">
