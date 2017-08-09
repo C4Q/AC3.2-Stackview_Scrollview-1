@@ -160,14 +160,14 @@
                         <viewControllerLayoutGuide type="bottom" id="UIK-nA-ekI"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="91Z-mA-Z1p">
-                        <rect key="frame" x="0.0" y="0.0" width="750" height="1600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hWz-DL-kX2" userLabel="Outer Yellow Scroll View">
-                                <rect key="frame" x="28" y="20" width="694" height="1531"/>
+                                <rect key="frame" x="24" y="20" width="327" height="598"/>
                                 <subviews>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q81-xK-hzO" userLabel="Inner Blue Scroll View">
-                                        <rect key="frame" x="0.0" y="982.5" width="694" height="200"/>
+                                        <rect key="frame" x="0.0" y="422.5" width="327" height="200"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bow_cat" translatesAutoresizingMaskIntoConstraints="NO" id="zsi-yS-AHb">
                                                 <rect key="frame" x="16" y="25.5" width="150" height="150"/>
@@ -224,15 +224,15 @@
                                         </constraints>
                                     </scrollView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hYU-qt-Abh" userLabel="Red (Y) View">
-                                        <rect key="frame" x="173.5" y="16" width="347" height="306"/>
+                                        <rect key="frame" x="82" y="16" width="163.5" height="119.5"/>
                                         <color key="backgroundColor" red="1" green="0.51736666161992528" blue="0.78776739657177941" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wQL-9p-dgt" userLabel="Green (Y) View">
-                                        <rect key="frame" x="173.5" y="338" width="347" height="306.5"/>
+                                        <rect key="frame" x="82" y="151.5" width="163.5" height="120"/>
                                         <color key="backgroundColor" red="0.618552405254155" green="1" blue="0.50276707170479484" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MoS-m5-l30" userLabel="Blue (Y) View">
-                                        <rect key="frame" x="173.5" y="660.5" width="347" height="306"/>
+                                        <rect key="frame" x="82" y="287.5" width="163.5" height="119"/>
                                         <color key="backgroundColor" red="0.57753435793231622" green="1" blue="0.9742734847434249" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
                                 </subviews>
@@ -269,11 +269,10 @@
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="downloads" id="dbe-pt-daf"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="750" height="1600"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6wY-gk-vQM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2050" y="804"/>
+            <point key="canvasLocation" x="1750" y="402"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="KzK-05-utl">
