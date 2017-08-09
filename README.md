@@ -118,7 +118,7 @@ Start off by first adding in a `UITabBarController` to be able to navigate betwe
 
 Recreate this lesson, but this time creating a *vertically* scrolling scroll view with three subviews. Again, it doesn't matter what sizes you make the views so long as the scroll view **only scrolls vertically***.
 
-<img src="./Images/verical_scroll_headon.png" width="400" alt="Vertical Scroll, Looking Head-on" style= { border: 2px solid black } >
+<img src="./Images/vertical_scroll_headon.png" width="400" alt="Vertical Scroll, Looking Head-on">
 <img src="./Images/vertical_scroll_profile.png" width="400" alt="Vertical Scroll, Profile View">
 <brb>
 
